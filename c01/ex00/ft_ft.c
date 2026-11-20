@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+// #include <unistd.h>
 
-void	ft_ft(int *nbr);
+// void	ft_ft(int *nbr);
 
 // int	main(void)
 // {

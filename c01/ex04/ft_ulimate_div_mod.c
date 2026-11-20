@@ -10,23 +10,23 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+// #include <stdio.h>
+// #include <unistd.h>
 
-void	ft_ultimate_div_mod(int *a, int *b);
+// void	ft_ultimate_div_mod(int *a, int *b);
 
-int	main(int i, int j)
-{
-	int	div;
-	int	mod;
+// int	main(int i, int j)
+// {
+// 	int	div;
+// 	int	mod;
 
-	i = 42;
-	j = 10;
-	ft_ultimate_div_mod(&i, &j);
-	printf("Devision: %d\n", i);
-	printf("Modulo: %d\n", j);
-	return (0);
-}
+// 	i = 42;
+// 	j = 10;
+// 	ft_ultimate_div_mod(&i, &j);
+// 	printf("Devision: %d\n", i);
+// 	printf("Modulo: %d\n", j);
+// 	return (0);
+// }
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {

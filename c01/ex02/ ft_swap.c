@@ -10,24 +10,24 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+// #include <stdio.h>
+// #include <unistd.h>
 
-void	ft_swap(int *a, int *b);
+// void	ft_swap(int *a, int *b);
 
-int	main(void)
-{
-	int	i;
-	int	j;
+// int	main(void)
+// {
+// 	int	i;
+// 	int	j;
 
-	i = 10;
-	j = 20;
-	ft_swap(&i, &j);
-	printf("changed values\n");
-	printf("i = %d\n", i);
-	printf("j = %d\n", j);
-	return (0);
-}
+// 	i = 10;
+// 	j = 20;
+// 	ft_swap(&i, &j);
+// 	printf("changed values\n");
+// 	printf("i = %d\n", i);
+// 	printf("j = %d\n", j);
+// 	return (0);
+// }
 
 void	ft_swap(int *a, int *b)
 {

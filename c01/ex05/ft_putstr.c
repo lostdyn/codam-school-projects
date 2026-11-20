@@ -10,16 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+// #include <stdio.h>
+// #include <unistd.h>
 
-void	ft_putstr(char *str);
+// void	ft_putstr(char *str);
 
-int	main(void)
-{
-	ft_putstr("Hello World c; \n");
-	return (0);
-}
+// int	main(void)
+// {
+// 	ft_putstr("Hello World c; \n");
+// 	return (0);
+// }
 
 void	ft_putstr(char *str)
 {
