@@ -14,6 +14,13 @@
 
 // int ft_str_is_alpha(char *str);
 
+// int main(void)
+// {
+//     char str[] = "i love alphabet exercises :3";
+//     ft_str_is_alpha(str);
+//     return 0;
+// }
+
 int ft_str_is_alpha(char *str)
 {
     int i;

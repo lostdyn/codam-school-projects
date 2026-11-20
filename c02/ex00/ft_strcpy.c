@@ -15,6 +15,17 @@
 
 // char *ft_strcpy(char *dest, char *src);
 
+// int main(void)
+// {
+// 	char dest[50];
+// 	char src[] = "WHY WAS THIS SO HARD TO GOOGLE!??";
+
+// 	ft_strcpy(dest, src);
+
+// 	printf("Copied string: %s\n", dest);
+// 	return 0;
+// }
+
 char *ft_strcpy(char *dest, char *src)
 {
 	char i;

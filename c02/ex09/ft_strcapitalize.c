@@ -14,6 +14,13 @@
 
 // char *ft_strcapitalize(char *str);
 
+// int main(void)
+// {
+//     char str[] = "i will cry :c";
+//     ft_strcapitalize(str);
+//     return 0;
+// }
+
 char *ft_strcapitalize(char *str)
 {
     int i;

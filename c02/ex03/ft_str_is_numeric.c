@@ -14,6 +14,13 @@
 
 // int ft_str_is_numeric(char *str);
 
+// int main(void)
+// {
+//     char str[] = "1234567890";
+//     ft_str_is_numeric(str);
+//     return 0;
+// }
+
 int ft_str_is_numeric(char *str)
 {
     int i;

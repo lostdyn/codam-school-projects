@@ -14,6 +14,13 @@
 
 // int ft_str_is_lowercase(char *str);
 
+// int main(void)
+// {
+//     char str[] = "this took way too long";
+//     ft_str_is_lowercase(str);
+//     return 0;
+// }
+
 int ft_str_is_lowercase(char *str)
 {
     int i;

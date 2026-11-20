@@ -14,6 +14,13 @@
 
 // char *ft_strlowcase(char *str);
 
+// int main(void)
+// {
+//     char str[] = "REALLY DON'T FAIL ME! >:C)";
+//     ft_strlowcase(str);
+//     return 0;
+// }
+
 char *ft_strlowcase(char *str)
 {
     int i;

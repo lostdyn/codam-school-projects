@@ -15,6 +15,19 @@
 
 // char *ft_strncpy(char *dest, char *src, unsigned int n);
 
+// int main(void)
+// {
+//     char dest[20];
+//     char src[] = "stoopid strncpy function";
+//     unsigned int n = 5;
+
+//     ft_strncpy(dest, src, n);
+//     dest[n] = '\0';
+
+//     printf("Copied string: %s\n", dest);
+//     return 0;
+// }
+
 char *ft_strncpy(char *dest, char *src, unsigned int n)
 {
     unsigned int i;

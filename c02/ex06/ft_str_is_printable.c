@@ -14,6 +14,13 @@
 
 // int ft_str_is_printable(char *str);
 
+// int main(void)
+// {
+//     char str[] = "i swear this works";
+//     ft_str_is_printable(str);
+//     return 0;
+// }
+
 int ft_str_is_printable(char *str)
 {
     int i;

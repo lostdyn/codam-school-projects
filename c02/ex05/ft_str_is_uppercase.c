@@ -14,6 +14,13 @@
 
 // int ft_str_is_uppercase(char *str);
 
+// int main(void)
+// {
+//     char str[] = "my code so good i know";
+//     ft_str_is_uppercase(str);
+//     return 0;
+// }
+
 int ft_str_is_uppercase(char *str)
 {
     int i;
