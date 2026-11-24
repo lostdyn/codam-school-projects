@@ -6,14 +6,14 @@
 /*   By: dd-aulni <dd-aulni@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/11/17 11:50:28 by dd-aulni      #+#    #+#                 */
-/*   Updated: 2026/11/19 12:52:17 by dd-aulni      ########   odam.nl         */
+/*   Updated: 2026/11/23 10:23:44 by dd-aulni      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+// #include <stdio.h>
+// #include <unistd.h>
 
-void	ft_swap(int *a, int *b);
+// void	ft_swap(int *a, int *b);
 
 // int	main(void)
 // {
@@ -22,6 +22,7 @@ void	ft_swap(int *a, int *b);
 
 // 	i = 10;
 // 	j = 20;
+// 	ft_swap(&i, &j);
 // 	printf("changed values\n");
 // 	printf("i = %d\n", i);
 // 	printf("j = %d\n", j);

@@ -6,14 +6,14 @@
 /*   By: dd-aulni <dd-aulni@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/11/19 12:16:09 by dd-aulni      #+#    #+#                 */
-/*   Updated: 2026/11/19 12:53:50 by dd-aulni      ########   odam.nl         */
+/*   Updated: 2026/11/24 09:35:32 by dd-aulni      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+//#include <stdio.h>
+//#include <unistd.h>
 
-void	ft_putstr(char *str);
+//void	ft_putstr(char *str);
 
 // int	main(void)
 // {

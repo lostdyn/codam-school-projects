@@ -6,14 +6,14 @@
 /*   By: dd-aulni <dd-aulni@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/11/19 10:07:19 by dd-aulni      #+#    #+#                 */
-/*   Updated: 2026/11/19 12:52:47 by dd-aulni      ########   odam.nl         */
+/*   Updated: 2026/11/24 09:35:45 by dd-aulni      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+//#include <stdio.h>
+//#include <unistd.h>
 
-void	ft_div_mod(int a, int b, int *div, int *mod);
+//void	ft_div_mod(int a, int b, int *div, int *mod);
 
 // int	main(int i, int j)
 // {

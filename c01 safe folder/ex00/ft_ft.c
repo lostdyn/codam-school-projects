@@ -6,13 +6,13 @@
 /*   By: dd-aulni <dd-aulni@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/11/13 23:42:23 by dd-aulni      #+#    #+#                 */
-/*   Updated: 2026/11/19 12:14:04 by dd-aulni      ########   odam.nl         */
+/*   Updated: 2026/11/24 09:30:23 by dd-aulni      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+//#include <unistd.h>
 
-void	ft_ft(int *nbr);
+//void	ft_ft(int *nbr);
 
 // int	main(void)
 // {

@@ -6,43 +6,47 @@
 /*   By: anonymous <anonymous@student.codam.nl>       +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/11/20 21:37:24 by anonymous     #+#    #+#                 */
-/*   Updated: 2026/11/20 21:37:24 by anonymous     ########   odam.nl         */
+/*   Updated: 2026/11/24 08:31:51 by dd-aulni      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
+//#include <unistd.h>
+//#include <stdio.h>
 
-// char *ft_strcapitalize(char *str);
+//char *ft_strcapitalize(char *str);
 
-// int main(void)
-// {
-//     char str[] = "i will cry :c";
-//     ft_strcapitalize(str);
-//     return 0;
-// }
+//int main(void)
+//{
+//	char str[] = "i will cry :c";
+//	printf("%s\n",ft_strcapitalize(str));
+//	ft_strcapitalize(str);
+//	return (0);
+//}
 
-char *ft_strcapitalize(char *str)
+char	*ft_strcapitalize(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        if (i == 0 || !(str[i - 1] >= 'A' && str[i - 1] <= 'Z') && !(str[i - 1] >= 'a' && str[i - 1] <= 'z') && !(str[i - 1] >= '0' && str[i - 1] <= '9'))
-        {
-            if (str[i] >= 'a' && str[i] <= 'z')
-            {
-                str[i] = str[i] - 32;
-            }
-        }
-        else
-        {
-            if (str[i] >= 'A' && str[i] <= 'Z')
-            {
-                str[i] = str[i] + 32;
-            }
-        }
-        i++;
-    }
-    return str;
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (i == 0 || (!(str[i - 1] >= 'A') && (str[i - 1] <= 'Z') && (!(str[i
+							- 1] >= 'a') && str[i - 1] <= 'z')) || (!(str[i
+						- 1] >= '0') && str[i - 1] <= '9'))
+		{
+			if (str[i] >= 'a' && str[i] <= 'z')
+			{
+				str[i] = str[i] - 32;
+			}
+		}
+		else
+		{
+			if (str[i] >= 'A' && str[i] <= 'Z')
+			{
+				str[i] = str[i] + 32;
+			}
+		}
+		i++;
+	}
+	return (str);
 }

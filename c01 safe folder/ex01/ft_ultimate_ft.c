@@ -6,14 +6,14 @@
 /*   By: dd-aulni <dd-aulni@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/11/14 21:56:39 by dd-aulni      #+#    #+#                 */
-/*   Updated: 2026/11/19 12:12:14 by dd-aulni      ########   odam.nl         */
+/*   Updated: 2026/11/24 09:30:30 by dd-aulni      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+//#include <stdio.h>
+//#include <unistd.h>
 
-void	ft_ultimate_ft(int *********nbr);
+//void	ft_ultimate_ft(int *********nbr);
 
 // int	main(void)
 // {
